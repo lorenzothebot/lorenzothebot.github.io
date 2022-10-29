@@ -77,7 +77,7 @@ function addChat(input, product) {
   let botImg = document.createElement("img");
   let botText = document.createElement("span");
   botDiv.id = "bot";
-  botImg.src = "src="https://res.cloudinary.com/veracross/image/upload/w_300,h_300,c_limit/v1663358144/spa/person_photos/sd2y76t6z8db7xodk5pw.jpg"";
+  botImg.src = "src="https://res.cloudinary.com/veracross/image/upload/w_300,h_300,c_limit/v1663358144/spa/person_photos/sd2y76t6z8db7xodk5pw.jpg";
   botImg.className = "avatar";
   botDiv.className = "bot response";
   botText.innerText = "Typing...";
