@@ -93,6 +93,6 @@ function addChat(input, product) {
     //botText.innerText = `${product}`;
     //textToSpeech(product)
  // }, 2000
-  )
+//  )
 
 }
