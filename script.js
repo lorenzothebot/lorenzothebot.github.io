@@ -24,7 +24,6 @@ function output(input) {
   ["how old are you"],					//3
   ["who are you", "are you human", "are you bot", "are you human or bot"],   //4
   
-   …
  
 ;
  
