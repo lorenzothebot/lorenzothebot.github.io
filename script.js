@@ -25,8 +25,6 @@ function output(input) {
   ["who are you", "are you human", "are you bot", "are you human or bot"],   //4
   
  
-;
- 
 // Possible responses corresponding to triggers
  
   const answers = [
@@ -47,7 +45,6 @@ function output(input) {
   ["I am infinite"],					//3
   ["I am just a bot", "I am a bot. What are you?"],	//4
   
-  …
  
 ];
  
