@@ -87,3 +87,12 @@ function addChat(input, product) {
   // Keep messages at most recent
   messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;
 
+
+  // Fake delay to seem "real"
+  //setTimeout(() => {
+    //botText.innerText = `${product}`;
+    //textToSpeech(product)
+ // }, 2000
+  )
+
+}
