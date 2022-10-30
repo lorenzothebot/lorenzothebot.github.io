@@ -31,7 +31,7 @@ function output(input) {
     product = compare(prompts, replies, text);
   } else if (text.match(/thank/gi)) {
     product = "You're welcome!"
-  } else if (text.match(/(corona|covid|virus)/gi)) {
+  } else if (text.match(/(france|french|king|revolution)/gi)) {
     // If no match, check if message contains `coronavirus`
     product = coronavirus[Math.floor(Math.random() * coronavirus.length)];
   } else {
@@ -74,11 +74,11 @@ function addChat(input, product) {
   messagesContainer.appendChild(userDiv);
 
   let botDiv = document.createElement("div");
-  let botImg = document.createElement("img");
+  //let botImg = document.createElement("img");
   let botText = document.createElement("span");
   botDiv.id = "bot";
-  botImg.src = "Lorenzo.jpg";
-  botImg.className = "avatar";
+  //botImg.src = "Lorenzo.jpg";
+  //botImg.className = "avatar";
   botDiv.className = "bot response";
   botText.innerText = "Thinking...";
   botDiv.appendChild(botText);
@@ -88,7 +88,7 @@ function addChat(input, product) {
   messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;
 
   // Fake delay to seem "real"
-  setTimeout((50) => {
+  setTimeout(() => {
     botText.innerText = `${product}`;
     //textToSpeech(product)
   }
