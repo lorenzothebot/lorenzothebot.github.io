@@ -80,15 +80,15 @@ function addChat(input, product) {
   botImg.src = "Lorenzo.jpg";
   botImg.className = "avatar";
   botDiv.className = "bot response";
-  botText.innerText = "Typing...";
+  botText.innerText = "Thinking...";
   botDiv.appendChild(botText);
-  botDiv.appendChild(botImg);
+  //botDiv.appendChild(botImg);
   messagesContainer.appendChild(botDiv);
   // Keep messages at most recent
   messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;
 
   // Fake delay to seem "real"
-  setTimeout(() => {
+  setTimeout((50) => {
     botText.innerText = `${product}`;
     //textToSpeech(product)
   }
