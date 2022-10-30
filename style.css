@@ -23,6 +23,14 @@ span {
 	padding-left: 15px;
 }
 
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #ffffff;
+  color: black;
+  font-size: 30px;
+}
+
 .container {
 	display: flex;
   justify-content: center;
