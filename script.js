@@ -69,8 +69,8 @@ function addChat(input, product) {
 
   let userDiv = document.createElement("div");
   userDiv.id = "user";
+  userDiv.innerHTML = `<span>${input}</span><img src="user.png" class="avatar">`;
   userDiv.className = "user response";
-  userDiv.innerHTML = `<img src="user.png" class="avatar"><span>${input}</span>`;
   messagesContainer.appendChild(userDiv);
 
   let botDiv = document.createElement("div");
