@@ -120,6 +120,7 @@ input {
   .container {
 		flex-direction: column; 
 		justify-content: flex-start;
+	  	padding-top: 20%;
 	}
 	.chat {
 		width: 75vw;
