@@ -14,7 +14,7 @@ const replies = [
 // Random for any other user input
 
 const alternative = [
-  "Bro really would do that","Cope","Cope, cope, cope","Based","Bro got caught in HIGH resolution","Man got caught in 4K","You would do that","I'ma go demon time","L bozo","Bro","Bruh","Go crazy","Man went CRAZY","Bro went CRAZY","Big dubs were taken","Ez","Trippin","Man's trippin","Naaaah bro","That's incorrect","Yeah, its big brain time","small brain moment","Average human moment","Average [insert your favorite activity here] enjoyer","*laughs* You would say that *laughing intensifies*","Yeah, but have I told you that I went to nationals in sailing, bro?","Bruh moment","Bro moment","Rip bozo","Rip","Facts","True facts","Me personally; would not do that","Me personally; would'n't take that","Ima be clowning on you","Clown","On God","lol get rekt","Bros literally an NPC"
+  "L BOZO + RATIO", "Bro really would do that","Cope","Cope, cope, cope","Based","Bro got caught in HIGH resolution","Man got caught in 4K","You would do that","I'ma go demon time","L bozo","Bro","Bruh","Go crazy","Man went CRAZY","Bro went CRAZY","Big dubs were taken","Ez","Trippin","Man's trippin","Naaaah bro","That's incorrect","Yeah, its big brain time","small brain moment","Average human moment","Average [insert your favorite activity here] enjoyer","*laughs* You would say that *laughing intensifies*","Yeah, but have I told you that I went to nationals in sailing, bro?","Bruh moment","Bro moment","Rip bozo","Rip","Facts","True facts","Me personally; would not do that","Me personally; would'n't take that","Ima be clowning on you","Clown","On God","lol get rekt","Bros literally an NPC"
 ]
 
 // Whatever else
