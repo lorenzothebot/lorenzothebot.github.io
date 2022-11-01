@@ -32,8 +32,11 @@ function output(input) {
   } else if (text.match(/thank/gi)) {
     product = "You're welcome!"
   } else if (text.match(/(france|french|king|revolution)/gi)) {
-    // If no match, check if message contains `coronavirus`
+    // If no match, check if message contains `french`
     product = coronavirus[Math.floor(Math.random() * coronavirus.length)];
+  } else if (text.match(/(france|french|king|revolution)/gi)) {
+    // If no match, check if message contains `sailing`
+    product = sailing[Math.floor(Math.random() * coronavirus.length)];
   } else {
     // If all else fails: random alternative
     product = alternative[Math.floor(Math.random() * alternative.length)];
