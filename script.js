@@ -34,9 +34,9 @@ function output(input) {
   } else if (text.match(/(france|french|king|revolution)/gi)) {
     // If no match, check if message contains `french`
     product = coronavirus[Math.floor(Math.random() * coronavirus.length)];
-  } else if (text.match(/(france|french|king|revolution)/gi)) {
+  } else if (text.match(/(sailing|boat|sail|sea|song|ocean|water)/gi)) {
     // If no match, check if message contains `sailing`
-    product = sailing[Math.floor(Math.random() * coronavirus.length)];
+    product = sailing[Math.floor(Math.random() * sailing.length)];
   } else {
     // If all else fails: random alternative
     product = alternative[Math.floor(Math.random() * alternative.length)];
